@@ -1,0 +1,95 @@
+.findSection-container{
+    /* max-width: 1040px; */
+    margin: 2rem;
+    /* font-family: */
+    font-family: 'Poppins', sans-serif;
+    /* width: 70vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* toberemoved later */
+    margin-bottom: 6rem;
+}
+.findSection-container-h1{
+font-size: 4rem;
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.findSection-container-p{
+    font-size: 1.4rem;
+    /* font-weight: 500; */
+    text-align: center;
+    font-weight: bold;
+
+}
+.findSection-container-div{
+    width: 400px;
+    height: 20px;
+    background-color: rgba(173, 199, 255, 0.502);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper{
+    width: 1050px;
+    margin-bottom: 6rem;
+}
+.swiper-container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 100vh;
+    min-height: 0;
+    min-width: 0;
+}
+.swiper-slide{
+    width: auto;
+    flex-shrink: 0;
+    display: block;
+    height: 100%;
+    max-height: 100%;
+}
+.swiper-wrapper{
+    max-height: 100%;
+    height: 100%;
+    display: flex;
+}
+@media (max-width: 640px) {
+    .findSection-container{
+        /* max-width: 1040px; */
+        margin: 0rem;
+      
+    }
+    .findSection-container-p{
+        font-size: 1.4rem;
+        padding: 1rem;
+        /* font-weight: 500; */
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    .swiper{
+        width: 380px;
+    }
+  
+  }
+  
+  @media (max-width: 768px) {
+    .findSection-container{
+        /* max-width: 1040px; */
+        margin: 0rem;
+      
+    }
+    .findSection-container-p{
+        font-size: 1.4rem;
+        padding: 1rem;
+        /* font-weight: 500; */
+        text-align: center;
+        font-weight: bold;
+    
+    }
+    .swiper{
+        width: 380px;
+    }
+  }

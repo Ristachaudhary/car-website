@@ -1,0 +1,67 @@
+.drive-container{
+    display: flex;
+    align-items: center;
+}
+.drive-img-text-container{
+    width: 100%;
+
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    /* margin: 0 400px; */
+}
+.Drive-img-container{
+    /* width: 250px; */
+}
+.Drive-img-container img{
+    width: 450px;
+}
+.drive-text-h2{
+    /* padding-top: 30%; */
+    font-size: 25px;
+}
+.drive-text-span{
+    color: #593cfb;
+}
+.drive-text-container-sec-para{
+    width: 50%;
+    font-size: 1rem;
+color: #333;
+padding: 1.5rem 0;
+}
+.browse-car-btn{
+    background-color: #593cfb;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 12px 18px;
+    border: none;
+}
+@media (max-width:600px) {
+    .drive-img-text-container{
+      
+        flex-direction: column;
+        margin-top: -4rem;
+      
+    }
+    .Drive-img-container img {
+        width: 350px;
+    }
+
+.drive-text-container-sec-para {
+    width: 74%;
+    margin-left: 3rem;
+}
+.drive-text-h2{
+    margin: 0 1rem;
+    text-align: center;
+}
+.drive-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+    
+

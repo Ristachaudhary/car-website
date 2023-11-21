@@ -1,0 +1,122 @@
+.heroSection-container{
+    background-image: url(../../images/herobackground.png) ;
+    background-repeat: no-repeat ;
+        width: 100%;
+        height: 60vh;
+        
+    object-fit: cover;
+  
+    background-size: cover;
+    background-position: center;
+display: flex;
+align-items: center;
+justify-content: center;
+    
+
+
+    /* position: fixed; */
+}
+.heroSection-container form{
+    width: 100%;
+    height: 60px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(247, 247, 247, 0.9);
+    padding: 2rem;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 8px 24px;
+    
+}
+form input{
+    background-color: transparent;
+    border: none;
+    font-family: 'Epilogue', sans-serif;
+}
+/* ........xxxxxx..... */
+form input:focus{
+    outline: none;
+}
+form label{
+    margin-bottom: 0.4rem;
+}
+.form-div-container{
+    display: flex;
+    flex-direction: column;
+}
+.form span{
+    border: 3px solid black;
+}
+.from, .until{
+    border-left: 1px solid #000;
+    padding-left: 0.5rem;
+}
+.location-search-input{
+    border: none;
+    font-size: 1.1rem;
+
+    /* background-color: rgba(247, 247, 247, 0.9); */
+}
+.form-search{
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.search-btn{
+    display: none;
+   }
+@media (max-width:600px) {
+    .heroSection-container{
+        height: 50vh;
+        /* width: 100%; */
+        overflow: hidden;
+
+    }
+    .heroSection-container form{
+        width: 80%;
+        height: 70%;
+        /* max-width: 700px; */
+        display: flex;
+        flex-direction: column;
+        border-radius: 40px;
+
+       }
+
+       .location-search-input{
+   width: 300px;
+}
+       .text, .from, .until{
+        width: 100%;
+        border-left: 0px;
+        display: flex;
+        /* align-items: flex-start; */
+        cursor: pointer;
+        padding-left: 1rem;
+       }
+       .from, .until{
+        border-top: 1px solid #333;
+        padding-top: 0.5rem;
+
+       }
+       .form-search{
+        display: none;
+       }
+       .search-btn{
+        display: flex;
+        width: 100%;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        background-color: #593cfb;
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
+        color: #fff;
+        padding: 1.2rem;
+        /* font-weight: 500; */
+
+       }
+}
